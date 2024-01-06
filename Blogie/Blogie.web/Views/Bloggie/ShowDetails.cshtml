@@ -1,0 +1,14 @@
+﻿@model Blogie.core.BlogInfo.BlogData 
+
+<div class="card mb-3">
+    <img class="card-img-top" style="height:25rem" src="@Model.Thumnail" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Title</h5>
+        <p class="card-text">@Model.Details</p>
+        <p class="card-text"><small class="text-muted">Written by</small></p>
+        <p>@Model.Name</p>
+    </div>
+</div>
+<div>
+    <a asp-controller="Bloggie" asp-action="Index">Back To Blog</a>
+</div>
