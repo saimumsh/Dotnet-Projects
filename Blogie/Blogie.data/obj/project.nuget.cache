@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NjeIULrk4SW5AvuXkXJaNdvW4KsU9A40nIsqjTwCkQ6KlwY+/AG9L2JdkPhy8GLqskCDUtJmwvwlY0/tpJeRUg==",
+  "dgSpecHash": "TTLzCaLqQlwMtozZOT7AwAzo2seKB7kX5odnsVOsW5v1GO1GicH4y/oSXZGORimRKeifi3MyLPwBQiYXPuOjIw==",
   "success": true,
-  "projectFilePath": "D:\\Project job\\Study C#\\Blogie\\Blogie.data\\Blogie.data.csproj",
+  "projectFilePath": "D:\\Dotnet Projects\\Blogie\\Blogie.data\\Blogie.data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Md. Shahadat Hossain\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Md. Shahadat Hossain\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

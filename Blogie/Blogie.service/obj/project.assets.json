@@ -4062,11 +4062,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project job\\Study C#\\Blogie\\Blogie.service\\Blogie.service.csproj",
+      "projectUniqueName": "D:\\Dotnet Projects\\Blogie\\Blogie.service\\Blogie.service.csproj",
       "projectName": "Blogie.service",
-      "projectPath": "D:\\Project job\\Study C#\\Blogie\\Blogie.service\\Blogie.service.csproj",
+      "projectPath": "D:\\Dotnet Projects\\Blogie\\Blogie.service\\Blogie.service.csproj",
       "packagesPath": "C:\\Users\\Md. Shahadat Hossain\\.nuget\\packages\\",
-      "outputPath": "D:\\Project job\\Study C#\\Blogie\\Blogie.service\\obj\\",
+      "outputPath": "D:\\Dotnet Projects\\Blogie\\Blogie.service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Md. Shahadat Hossain\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4083,8 +4083,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Project job\\Study C#\\Blogie\\Blogie.data\\Blogie.data.csproj": {
-              "projectPath": "D:\\Project job\\Study C#\\Blogie\\Blogie.data\\Blogie.data.csproj"
+            "D:\\Dotnet Projects\\Blogie\\Blogie.data\\Blogie.data.csproj": {
+              "projectPath": "D:\\Dotnet Projects\\Blogie\\Blogie.data\\Blogie.data.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project job\\Study C#\\Blogie\\Blogie.core\\Blogie.core.csproj": {}
+    "D:\\Dotnet Projects\\Blogie\\Blogie.core\\Blogie.core.csproj": {}
   },
   "projects": {
-    "D:\\Project job\\Study C#\\Blogie\\Blogie.core\\Blogie.core.csproj": {
+    "D:\\Dotnet Projects\\Blogie\\Blogie.core\\Blogie.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project job\\Study C#\\Blogie\\Blogie.core\\Blogie.core.csproj",
+        "projectUniqueName": "D:\\Dotnet Projects\\Blogie\\Blogie.core\\Blogie.core.csproj",
         "projectName": "Blogie.core",
-        "projectPath": "D:\\Project job\\Study C#\\Blogie\\Blogie.core\\Blogie.core.csproj",
+        "projectPath": "D:\\Dotnet Projects\\Blogie\\Blogie.core\\Blogie.core.csproj",
         "packagesPath": "C:\\Users\\Md. Shahadat Hossain\\.nuget\\packages\\",
-        "outputPath": "D:\\Project job\\Study C#\\Blogie\\Blogie.core\\obj\\",
+        "outputPath": "D:\\Dotnet Projects\\Blogie\\Blogie.core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Md. Shahadat Hossain\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -52,35 +52,6 @@ namespace Blogie.data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("BlogDatas");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Details = "Details1",
-                            Name = "Shahadat",
-                            Summary = "Summary1",
-                            Thumnail = "~/image/avenue-815297_640.jpg",
-                            Title = "Title1"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Details = "Details2",
-                            Name = "Emran",
-                            Summary = "Summary2",
-                            Thumnail = "~/image/download(1).jpg",
-                            Title = "Title2"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Details = "Details3",
-                            Name = "Mahfuz",
-                            Summary = "Summary3",
-                            Thumnail = "~/image/download.jpg",
-                            Title = "Title3"
-                        });
                 });
 
             modelBuilder.Entity("Blogie.core.UserInfo.UserData", b =>

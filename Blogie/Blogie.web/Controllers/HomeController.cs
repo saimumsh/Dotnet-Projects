@@ -1,3 +1,5 @@
+using Blogie.core.BlogInfo;
+using Blogie.data.Repositoty;
 using Blogie.web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -6,16 +8,18 @@ namespace Blogie.web.Controllers
 {
 	public class HomeController : Controller
 	{
-		private readonly ILogger<HomeController> _logger;
-
-		public HomeController(ILogger<HomeController> logger)
-		{
-			_logger = logger;
-		}
+        private readonly IRepository<BlogData> _showAction;
+        private readonly IWebHostEnvironment webHostEnvironment;
+        public HomeController(IRepository<BlogData> showAction, IWebHostEnvironment webHostEnvironment)
+        {
+            _showAction = showAction;
+            this.webHostEnvironment = webHostEnvironment;
+        }
 
 		public IActionResult Index()
 		{
-			return View();
+            List<BlogData> obj = _showAction.GetAll();
+            return View(obj);
 		}
 
 		public IActionResult Privacy()
