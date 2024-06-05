@@ -1,14 +1,11 @@
-﻿@model Blogie.core.BlogInfo.BlogData
+﻿@model Blogie.web.ViewModels.ViewBlogData
 
 <div>
-    <form method="post">
-        <div class="form-group">
-            <label for="name">Your Name</label>
-            <input asp-for="Name" type="text" class="form-control" id="name" placeholder="Enter your name here">
-        </div>
+    <form method="post" enctype="multipart/form-data">
+       
         <div class="form-group">
             <label for="thumnail">Thumnail</label>
-            <input asp-for="Thumnail" type="file" class="form-control" id="thumnail"/>
+            <input asp-for="imageFile" type="file" class="form-control" id="imageFile" />
         </div>
        <div class="form-group">
            <label for="blogtitle">Title</label>

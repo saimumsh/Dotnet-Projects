@@ -141,14 +141,13 @@ D:\Project job\Study C#\Blogie\Blogie.web\obj\Debug\net8.0\refint\Blogie.web.dll
 D:\Project job\Study C#\Blogie\Blogie.web\obj\Debug\net8.0\Blogie.web.pdb
 D:\Project job\Study C#\Blogie\Blogie.web\obj\Debug\net8.0\Blogie.web.genruntimeconfig.cache
 D:\Project job\Study C#\Blogie\Blogie.web\obj\Debug\net8.0\ref\Blogie.web.dll
+D:\Dotnet Projects\Blogie\Blogie.web\bin\Debug\net8.0\Blogie.web.dll
 D:\Dotnet Projects\Blogie\Blogie.web\bin\Debug\net8.0\appsettings.Development.json
 D:\Dotnet Projects\Blogie\Blogie.web\bin\Debug\net8.0\appsettings.json
 D:\Dotnet Projects\Blogie\Blogie.web\bin\Debug\net8.0\Blogie.web.staticwebassets.runtime.json
 D:\Dotnet Projects\Blogie\Blogie.web\bin\Debug\net8.0\Blogie.web.exe
 D:\Dotnet Projects\Blogie\Blogie.web\bin\Debug\net8.0\Blogie.web.deps.json
 D:\Dotnet Projects\Blogie\Blogie.web\bin\Debug\net8.0\Blogie.web.runtimeconfig.json
-D:\Dotnet Projects\Blogie\Blogie.web\bin\Debug\net8.0\Blogie.web.dll
-D:\Dotnet Projects\Blogie\Blogie.web\bin\Debug\net8.0\Blogie.web.pdb
 D:\Dotnet Projects\Blogie\Blogie.web\bin\Debug\net8.0\Azure.Core.dll
 D:\Dotnet Projects\Blogie\Blogie.web\bin\Debug\net8.0\Azure.Identity.dll
 D:\Dotnet Projects\Blogie\Blogie.web\bin\Debug\net8.0\Humanizer.dll
@@ -283,4 +282,5 @@ D:\Dotnet Projects\Blogie\Blogie.web\obj\Debug\net8.0\Blogie.web.dll
 D:\Dotnet Projects\Blogie\Blogie.web\obj\Debug\net8.0\refint\Blogie.web.dll
 D:\Dotnet Projects\Blogie\Blogie.web\obj\Debug\net8.0\Blogie.web.pdb
 D:\Dotnet Projects\Blogie\Blogie.web\obj\Debug\net8.0\Blogie.web.genruntimeconfig.cache
+D:\Dotnet Projects\Blogie\Blogie.web\bin\Debug\net8.0\Blogie.web.pdb
 D:\Dotnet Projects\Blogie\Blogie.web\obj\Debug\net8.0\ref\Blogie.web.dll

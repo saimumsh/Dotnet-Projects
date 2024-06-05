@@ -1,5 +1,6 @@
 ﻿using Blogie.core;
 using Blogie.core.BlogInfo;
+using Blogie.web.ViewModels;
 using Blogie.data.Repositoty;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,11 +26,39 @@ namespace Blogie.web.Controllers
 			return View();
         }
 		[HttpPost]
-        public IActionResult Create( BlogData obj)
+        public IActionResult Create( ViewBlogData obj)
 		{
-            _blogAction.Add(obj);
+            if(ModelState.IsValid)
+            {
+                var path = webHostEnvironment.WebRootPath;
+                var filePath = "image/" + obj.imageFile.FileName;
+                var fullPath = Path.Combine(path, filePath);
+                FileUpload(obj.imageFile, fullPath);
+
+
+                BlogData blogData = new BlogData()
+                {
+                    Thumnail = filePath,
+                    Title=obj.Title,
+                    Summary=obj.Summary,
+                    Details=obj.Details,
+               
+                };
+                _blogAction.Add(blogData);
+                return RedirectToAction("index", "Bloggie");
+            }
+            else
+            {
+                return View(obj);
+            }
 			return RedirectToAction("Index","Bloggie");
+            //_blogAction.Add(obj);
 		}
+        public void FileUpload(IFormFile file ,string path)
+        {
+            FileStream fileStream = new FileStream(path, FileMode.Create);
+            file.CopyTo(fileStream);
+        }
 		public IActionResult Update(int id)
 		{
 			if (id == null)

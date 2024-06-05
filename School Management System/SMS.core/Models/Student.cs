@@ -15,7 +15,6 @@ namespace SMS.core.Models
         public string Password { get; set; }
         public string PhoneNumber { get; set; }
         public string Address { get; set; }
-
         public ClassLevel ClassLevel { get; set; }
         public int ClassLevelId { get; set; }
         public Attendence Attendence { get; set; }

@@ -25,6 +25,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Dotnet Projects\\Blogie\\Blogie.web\\wwwroot\\image\\photo_2024-05-16_22-23-27.jpg",
+      "PackagePath": "staticwebassets\\image\\photo_2024-05-16_22-23-27.jpg"
+    },
+    {
+      "Id": "D:\\Dotnet Projects\\Blogie\\Blogie.web\\wwwroot\\image\\photo_2024-05-16_22-23-44.jpg",
+      "PackagePath": "staticwebassets\\image\\photo_2024-05-16_22-23-44.jpg"
+    },
+    {
+      "Id": "D:\\Dotnet Projects\\Blogie\\Blogie.web\\wwwroot\\image\\photo_2024-05-16_23-16-38.jpg",
+      "PackagePath": "staticwebassets\\image\\photo_2024-05-16_23-16-38.jpg"
+    },
+    {
       "Id": "D:\\Dotnet Projects\\Blogie\\Blogie.web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
